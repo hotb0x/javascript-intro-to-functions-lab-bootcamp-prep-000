@@ -20,9 +20,9 @@ function sayHiToGrandma(string){
   let x = string;
   if (x.toLowerCase === x){
     return "I can\'t hear you!"
-  } else if (x === "I love you, Grandma") {
-    return "I love you, too."
-  } else if (x.toUpperCase === x){
+  } else if (x.toUpperCase === x) {
     return "YES INDEED!"
+  } else (x === 'I love you, Grandma'){
+    return "I love you, too";
   }
 }
