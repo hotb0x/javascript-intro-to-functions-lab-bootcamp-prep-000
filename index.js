@@ -20,5 +20,7 @@ function sayHiToGrandma(string){
   let x = string
   if (string.toLowerCase !== string){
     return "I can\'t hear you!"
+  } else {
+    return "YES INDEED!"
   }
 }
